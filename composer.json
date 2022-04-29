@@ -1,0 +1,22 @@
+{
+    "name": "kikwik/instant-win-bundle",
+    "description": "Instant Win lottery",
+    "type": "symfony-bundle",
+    "require": {
+        "php": "^7.1.3",
+        "symfony/framework-bundle": "^4.4|^5.0",
+        "fresh/doctrine-enum-bundle": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kikwik\\InstantWinBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Klaus",
+            "email": "support@kikwik.it"
+        }
+    ]
+}
